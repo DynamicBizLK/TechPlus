@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title">+Tech | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logo.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+
+    <div class="body">
+        <div class="header" id="header">
+            <div class="h">
+                <div class="logo-header">
+                    <div class="header-logo"></div>
+                </div>
+                <div class="nav-header">
+                    <div class="nav-bar">
+                        <button class="header-button" onclick="redir('traning-div')">Trainings</button>
+                        <button class="header-button" onclick="redir('coop')">Corporates</button>
+                        <button class="header-button" onclick="redir('des')">About Us</button>
+                        <button class="header-button" onclick="redir('cont-2')">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner" id="banner">
+            <div class="banner-dots">
+                <div class="banner-main" id="main-massage">
+                    <h1 class="banner-text">Come ,<br/>Join With US</h1>
+                    <button class="join-but">Join</button>
+
+                </div>
+                <div class="banner-main" style="display:none;" id="massage-2">
+                    <h1 class="banner-2" style="font-size:50px;">
+
+                        Build Job Ready Developers<br/> Hire Job Ready Learners
+
+
+                    </h1>
+
+                </div>
+                <div class="banner-main" style="display:none;" id="massage-3">
+                    <h1 class="banner-2">
+                        <b>Accolerated Learning Soluction,<br/> to Become Job Ready</b>
+                    </h1>
+
+                </div>
+                <div class="banner-main" style="display:none;" id="massage-4">
+                    <h1 class="banner-2"><b> A meaningful alternative to accelerate conventional education to build job ready digital talent</b><br/>
+                        <p style="font-size:medium;">No matter who you are, what you do or where you work, your life is being shaped by changing technology. We can't stop this, but we can adapt our future to make the most of it. Whether you're 17 or 60, our programme has been developed
+                            to help launch a financially rewarding career in Tech- no prior experience or specialist skill needed! Let us help you TODAY. You don't have to do it alone anymore, we will be with you every step of the way</p>
+                    </h1>
+
+                    <button class="join-but" style="width: fit-content;">View Trainings</button>
+
+                </div>
+                <div id="ctrl" style="display:flex;position:fixed;bottom: 10px;transition: 1s;z-index: 99999;">
+                    <button onclick="prev()" class="join-but"><</button><button onclick="next()" class="join-but">></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-body" style="overflow-x:hidden;" id="about">
+            <div class="main-ben" id="ben">
+                <div class="benifits">
+                    <div id="b1" class="ben-1" style="  color: black;
+                background-color: rgb(213, 219, 224);">
+                        <img src="images/student.jpg" width="100%" />
+                        <div style="padding: 10px; box-sizing: border-box;">
+                            <h1 style="text-align: center;">Benefits to Students</h1>
+
+                            <ul>
+                                <li> Creating the shortest path for a rewarding Career in Tech. </li>
+                                <li>Empower through continuous coaching & motivation even after the completion of the training. </li>
+                                <li>Affordable, fast track courses to be employment ready. </li>
+                                <li>Industry focused dynamic curriculum. </li>
+                                <li>Spot talented students and give an opportunity so they can work wonders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="b2" class="ben-1" style="background-color:rgb(68 168 207);color: white;">
+                        <img src="images/Corporates.jpg" width="100%" />
+                        <div style="padding: 10px; box-sizing: border-box;">
+
+                            <h1 style="text-align: center;"> Benefits to Corporates</h1>
+                            <ul>
+                                <li>Partner to build tech talent. </li>
+                                <li> Contribute to level up the tech industry to fill the gap between academia & industry. </li>
+                                <li> Hire Job ready tech talent – Free Premium support to find the right tech talent Training programs to transform your teams to the needs of your company. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="des" id="des">
+                <!-- 1 -->
+                <div class="stripe" id="st1">
+                    <div class="holder" id="hol1">
+                        <div class="stripe1 belief" id="str1">
+                            <div class="img-div" style="background-color: rgb(128, 0, 49);width: 500px;height: 100%;display: grid;background-image: url('images/st1.jpg');">
+
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:flex;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>We believe in learning more than homework, certificates & competition.
+                                        </li>
+                                        <li>Tech industry is growing faster than any other industry and not shrinking. i.e: TravelTech, AgTech, FinTech, EdTech, MedTech, eSports, eInvestment etc
+                                        </li>
+                                        <li>Vocational education systems should change to prepare everyone to thrive in a complex world.
+                                        </li>
+                                        <li>No one should be excluded from education because of financial constraints.
+                                        </li>
+                                        <li>Our students can enrich their lives with a career in tech.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div style="background-color:white;color:black;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Our Belief</h1>
+                            </div>
+                        </div>
+
+                        <div class="stripe2 objective" id="str2">
+                            <div style="background-color:black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Objectives</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>To help everyone fall in love with Computer Science.
+
+                                        </li>
+                                        <li>Encourage tech education even at a younger age.
+
+                                        </li>
+                                        <li>Empower to build a financially rewarding future.
+
+                                        </li>
+
+                                        <li>Help the tech industry to find job ready tech talent.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: rgb(67, 12, 138);width: 500px;height: 100%;display: grid;background-image: url('images/st2.jpg');">
+
+                            </div>
+                        </div>
+
+
+                        <div class="stripe3 about" id="str3">
+                            <div style="background-color:black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">About Us</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align: center;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p> +Tech Academy is focused to level up Tech Talent and help students & companies engage to strengthen the tech industry with growth minded talent.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Vision</b><br/><br/> Change Lives through Tech Education.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Mission</b><br/><br/> Enabling high income revenue streams for Students, Educators, and Employees challenged with retrenchment, downsizing or redundancy.
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: purple;width: 500px;height: 100%;display: grid;background-image: url('images/st3.jpg');">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 1 -->
+                <!-- 2 -->
+                <div class="stripe" id="st2">
+                    <div class="holder" id="hol2">
+                        <div class="stripe1 belief" id="str21">
+
+
+                            <div class="img-div" style="background-color: rgb(128, 0, 49);width: 500px;height: 100%;display: grid; background-image: url('images/st1.jpg');">
+
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:flex;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>We believe in learning more than homework, certificates & competition.
+                                        </li>
+                                        <li>Tech industry is growing faster than any other industry and not shrinking. i.e: TravelTech, AgTech, FinTech, EdTech, MedTech, eSports, eInvestment etc
+                                        </li>
+                                        <li>Vocational education systems should change to prepare everyone to thrive in a complex world.
+                                        </li>
+                                        <li>No one should be excluded from education because of financial constraints.
+                                        </li>
+                                        <li>Our students can enrich their lives with a career in tech.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div style="background-color:white;color:black;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Our Belief</h1>
+                            </div>
+                        </div>
+
+                        <div class="stripe2 objective" id="str22">
+                            <div style="background-color:black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Objectives</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>To help everyone fall in love with Computer Science.
+
+                                        </li>
+                                        <li>Encourage tech education even at a younger age.
+
+                                        </li>
+                                        <li>Empower to build a financially rewarding future.
+
+                                        </li>
+
+                                        <li>Help the tech industry to find job ready tech talent.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: rgb(67, 12, 138);width: 500px;height: 100%;display: grid;background-image: url('images/st2.jpg');">
+
+                            </div>
+                        </div>
+
+                        <div class="stripe3 about" id="str23">
+                            <div style="background-color: black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">About Us</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align: center;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p> +Tech Academy is focused to level up Tech Talent and help students & companies engage to strengthen the tech industry with growth minded talent.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Vision</b><br/><br/> Change Lives through Tech Education.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Mission</b><br/><br/> Enabling high income revenue streams for Students, Educators, and Employees challenged with retrenchment, downsizing or redundancy.
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: purple;width: 500px;height: 100%;display: grid;background-image: url('images/st3.jpg');">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <!-- 3 -->
+                <div class="stripe" id="st3">
+                    <div class="holder" id="hol1">
+
+                        <div class="stripe1 belief" id="str31">
+                            <div class="img-div" style="background-color: rgb(128, 0, 49);width: 500px;height: 100%;display: grid;background-image: url('images/st1.jpg');">
+
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:flex;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>We believe in learning more than homework, certificates & competition.
+                                        </li>
+                                        <li>Tech industry is growing faster than any other industry and not shrinking. i.e: TravelTech, AgTech, FinTech, EdTech, MedTech, eSports, eInvestment etc
+                                        </li>
+                                        <li>Vocational education systems should change to prepare everyone to thrive in a complex world.
+                                        </li>
+                                        <li>No one should be excluded from education because of financial constraints.
+                                        </li>
+                                        <li>Our students can enrich their lives with a career in tech.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div style="background-color:white;color:black;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Our Belief</h1>
+                            </div>
+                        </div>
+
+                        <div class="stripe2 objective" id="str32">
+                            <div style="background-color:black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">Objectives</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align:left;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p style="font-size:x-large;">
+                                    <ul>
+                                        <li>To help everyone fall in love with Computer Science.
+
+                                        </li>
+                                        <li>Encourage tech education even at a younger age.
+
+                                        </li>
+                                        <li>Empower to build a financially rewarding future.
+
+                                        </li>
+
+                                        <li>Help the tech industry to find job ready tech talent.
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: rgb(67, 12, 138);width: 500px;height: 100%;display: grid;background-image: url('images/st2.jpg');">
+
+                            </div>
+                        </div>
+
+                        <div class="stripe3 about" id="str33">
+                            <div style="background-color: black;color: white;text-align: center;display: flex;align-items: center;">
+                                <h1 style="transform: rotate(-90deg);width: 100%;">About Us</h1>
+                            </div>
+                            <div style="width: fit-content;height: 100%;text-align: center;display:grid;align-items: center;padding: 10px;box-sizing: border-box;">
+                                <p> +Tech Academy is focused to level up Tech Talent and help students & companies engage to strengthen the tech industry with growth minded talent.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Vision</b><br/><br/> Change Lives through Tech Education.<br/><br/>
+                                    <b style="font-size:xx-large;">Our Mission</b><br/><br/> Enabling high income revenue streams for Students, Educators, and Employees challenged with retrenchment, downsizing or redundancy.
+                                </p>
+                            </div>
+                            <div class="img-div" style="background-color: purple;width: 500px;height: 100%;display: grid;background-image: url('images/st3.jpg');">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+            </div>
+
+            <div class="coop" id="coop">
+                <div class="title">
+                    <h1>
+                        Corporates
+                    </h1>
+                </div>
+                <div class="coop-body">
+                    <img src="images/coop.jpg" height="100%" width="100%" />
+                    <div style="width: fit-content;height: 100%;text-align:left;display:flex;align-items: center;padding: 10px;box-sizing: border-box;">
+
+                    </div>
+                    <div style="width: fit-content;height: 100%;text-align: center;padding: 10px;box-sizing: border-box;color:white;">
+                        <p> We are an outcome focused group of experienced team working together in developing solutions to fill the gap between academia & industry demand. We collaborate to create opportunities to build job ready digital talent.</p>
+                        <div style="box-sizing: border-box;background-color: rgb(213, 219, 224);color: black; ">
+                            <h1>Why Our Students</h1>
+                            <p>Digital talent relevant to the latest trends<br/> Have high motivation<br/> Persistent problem solver<br/> Have a growth mindset</p><br/>
+                            <div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact">
+                <div class="form-box" id="fb">
+                    <img src="images/contact.jpg" height="100%" width="100%" />
+                    <div class="form">
+                        <form style="width: 100%;" action="https://formsubmit.co/info@plustechacademy.com" method="POST">
+                            <h1 style="text-align: center;">Lets Partner!</h1>
+                            <input type="hidden" name="_subject" value="Partner request">
+                            <table class="tab" id="tab" style="width: 80%;margin-left: 10%;">
+                                <tr>
+                                    <td> Name :</td>
+                                    <td style="text-align: right;"> <input required name="name" type="text" class="inp" style="width: 100%;height: 40px;" placeholder="Name"> </td>
+                                </tr>
+                                <tr>
+                                    <td> Contact-No : </td>
+                                    <td style="text-align: right;"><input required name="contact" type="text" class="inp" style="width: 100%;height: 40px;" placeholder="Contact No"></td>
+                                </tr>
+                                <tr>
+                                    <td> Email : </td>
+                                    <td style="text-align: right;"> <input required type="email" name="email" class="inp" style="width: 100%;height: 40px;" placeholder="Email"></td>
+                                    <input type="hidden" name="_autoresponse" value="Your Details have recived">
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;"> Message : </td>
+                                    <td style="text-align: right;"><textarea required name="massage" class="inp" style="width: 100%;height: 90px;">
+                                
+                                    </textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="padding: 10px;box-sizing: border-box;width: 100%;text-align: center;">
+                                        <button type="submit" style="width: 80%;height: 40px;background-color: black;color: white;border: white;cursor: pointer;">Submit</button>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="we-do-div">
+                <div style="padding: 10px;text-align: center;   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;background-image: url('images/sky.jpg');">
+                    <p style="backdrop-filter: blur(10px);color: white;width: 100%;">What do we do at +Tech Academy typically others wo't do (or perhaps they can't)</p>
+
+                </div>
+                <div class="we-do">
+                    <div class="cir" style="background-image: url('images/learn.jpg');" id="cir1">
+
+                        <p style="backdrop-filter: blur(10px);color: white;"> We believe in Learning more than homework, certificates & titles.</p>
+                    </div>
+                    <div class="cir" style="background-image: url('images/future.jpg');margin-left: -210px;" id="cir2">
+                        <p style="backdrop-filter: blur(10px);color: white;"> Dynamic curriculum to suit jobs of the future.</p>
+
+                    </div>
+                    <div class="cir" style="background-image: url('images/opportunity.jpg');margin-left: -210px;" id="cir3">
+                        <p style="backdrop-filter: blur(10px);color: white;"> Opportunity to learn and work with IT professionals.</p>
+
+                    </div>
+                    <div class="cir" style="background-image: url('images/exp.jpg');margin-left: -210px;" id="cir4">
+                        <p style="backdrop-filter: blur(10px);color: white;"> Practical exposure to real world projects.</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="traning" id="traning-div">
+                <div style="padding: 10px;text-align: center;   background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <h1 style="backdrop-filter: blur(10px);color: white;width: 100%;">Training</h1>
+
+                </div>
+                <div class="traning-div" id="traning">
+                    <div class="dia">
+
+                    </div>
+                    <div style="backdrop-filter: invert(80%);color: white;width: 100%;backdrop-filter: blur(10px);" class="traning-des" id="tra">
+                        <p style="text-align: center;">We build job ready, high pay tech talent.
+                        </p>
+                        <p>WHY ENROLL?</p>
+                        <ul>
+                            <li>We help you to fast track towards in developing a financially rewarding skills needed for a digital career.
+                            </li>
+                            <li>Our academy will offer highly affordable course fees with multiple payment options and a guided learning journey to be employment ready.
+                            </li>
+                        </ul>
+                        <p>
+                            Go through our courses to accelerate your success.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="we-do">
+                <div class="cir" style="background-image: url('images/software.jpg');border-radius: 10px;" id="sq1">
+
+                    <p style="backdrop-filter: blur(10px);color: white;"> Job Ready Software Developer</p>
+                </div>
+                <div class="cir" style="background-image: url('images/web.jpg');border-radius: 10px;" id="sq2">
+                    <p style="backdrop-filter: blur(10px);color: white;">Job Ready Web Developer</p>
+
+                </div>
+                <div class="cir" style="background-image: url('images/front-end.jpg');border-radius: 10px;" id="sq3">
+                    <p style="backdrop-filter: blur(10px);color: white;"> Job Ready Front End Developer</p>
+
+                </div>
+                <div class="cir" style="background-image: url('images/fullstack.jpg');border-radius: 10px;" id="sq4">
+                    <p style="backdrop-filter: blur(10px);color: white;"> Job Ready Full Stack Developer</p>
+
+                </div>
+
+            </div>
+            <div class="contact">
+                <div class="form-box" style="background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url('images/training.jpg');" id="cont">
+                    <!-- <img src="images/st.jpg" height="100%" width="100%" /> -->
+                    <div class="form">
+                        <form style="width: 100%;" action="https://formsubmit.co/info@plustechacademy.com" method="POST">
+                            <h3 style="text-align: center;backdrop-filter: blur(10px);color: white;">Difficult to decide? Connect with our mentors to learn what is best for your future.
+                                <input type="hidden" name="_subject" value="Contact">
+                            </h3>
+                            <table class="tab" id="form" style="width: 80%;margin-left: 10%;">
+                                <tr>
+                                    <td style="backdrop-filter: blur(10px);color: white;"> Name :</td>
+                                    <td style="text-align: right;"> <input type="text" required name="name" class="inp" style="width: 100%;height: 40px;" placeholder="Name"> </td>
+                                </tr>
+                                <tr>
+                                    <td style="backdrop-filter: blur(10px);color: white;"> Contact-No : </td>
+                                    <td style="text-align: right;"><input type="text" required name="contact" class="inp" style="width: 100%;height: 40px;" placeholder="Contact No"></td>
+                                </tr>
+                                <tr>
+                                    <td style="backdrop-filter: blur(10px);color: white;"> WhatsApp : </td>
+                                    <td style="text-align: right;"> <input type="text" required name="whatsapp" class="inp" style="width: 100%;height: 40px;" placeholder="WhatsApp"></td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;backdrop-filter: blur(10px);color: white;"> Message : </td>
+                                    <td style="text-align: right;"><textarea class="inp" required name="massage" style="width: 100%;height: 90px;">
+                                
+                                    </textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="padding: 10px;box-sizing: border-box;width: 100%;text-align: center;">
+                                        <button style="width: 80%;height: 40px;background-color: black;color: white;border: white;cursor: pointer;">Submit</button>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-ben" id="car" style="width: 100%;">
+                <div style="padding: 10px;text-align: center;   background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <h1 style="backdrop-filter: blur(10px);color:black;width: 100%;">Careers</h1>
+
+                </div>
+                <div class="benifits">
+                    <div id="ca-1" class="ben-1" style="  color: black;
+                background-color: rgb(213, 219, 224); background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;background-image: url('images/car.jpg');">
+                        <!-- <img src="images/student.jpg" width="100%" /> -->
+                        <div style="padding: 10px; box-sizing: border-box;backdrop-filter: blur(10px);">
+                            <h1 style="text-align: center;">We welcome who,
+                            </h1>
+
+                            <ul>
+                                <li>Are hungry & humble to change lives through Tech education.
+                                </li>
+                                <li>Enjoy sharing industry knowledge & support others for a win.
+                                </li>
+                                <li>Have outstanding communication skills in two languages. English is a must.
+                                </li>
+                                <li>Ability to plan, organize and coordinate with others with minimum supervision.
+                                </li>
+                                <li>Outstanding skills & discipline to work remotely.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ca-2" class="ben-1" style="background-color:rgb(68 168 207);color: white;background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;background-image: url('images/wh.jpg');">
+                        <!-- <img src="images/Corporates.jpg" width="100%" /> -->
+                        <div style="padding: 10px; box-sizing: border-box;backdrop-filter: blur(10px);">
+
+                            <h1 style="text-align: center;"> Why should I join +Tech Academy?
+                            </h1>
+                            <ul>
+                                <li>Get a steady stream of income.
+                                </li>
+                                <li> Manage your time & energy towards a well-balanced life.
+                                </li>
+                                <li> Teach from anywhere.
+                                </li>
+                                <li>Make an impact.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div style="padding: 10px;text-align: center;   background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+                    <h3 style="backdrop-filter: blur(10px);color:black;width: 100%;">...and more to come! We're constantly improving our culture and work processors to keep our teams happy & energized.
+                    </h3>
+
+                </div>
+
+            </div>
+            <div style="padding: 10px;text-align: center;   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;background-image: url('images/sky.jpg');">
+                <h1 style="backdrop-filter: blur(10px);color: white;width: 100%;">Open Vacancies</h1>
+
+            </div>
+            <div class="we-do">
+
+                <div class="cir s1" style="background-image: url('images/educa.jpg');border-radius: 10px;cursor: pointer;" id="sq1">
+
+                    <p style="backdrop-filter: blur(10px);color: white;"> Educators </p>
+                </div>
+                <div class="cir s1" style="background-image: url('images/mana.jpg');border-radius: 10px;cursor: pointer;" id="sq2">
+                    <p style="backdrop-filter: blur(10px);color: white;">Team Manager</p>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer" id="cont-2">
+            <div class="f1">
+                <h3>We sow seeds that will make a hundred and thousands to succeed in their aspirations.</h3>
+
+            </div>
+            <div class="f2">
+
+
+                <div class="form fff" style="width:fit-content;display: block;">
+                    <form style="width: 100%;" action="https://formsubmit.co/info@plustechacademy.com" method="POST">
+                        <p style="text-align: center;backdrop-filter: blur(10px);color: white;">Got questions? Send us a message
+                            <input type="hidden" name="_subject" value="Questions">
+                        </p>
+                        <table class="tab" id="cont-form" style="width: 80%;margin-left: 10%;opacity: 1;">
+                            <tr>
+                                <td style="backdrop-filter: blur(10px);color: white;"> Name :</td>
+                                <td style="text-align: right;"> <input required name="name" type="text" class="inp" style="width: 100%;height: 40px;" placeholder="Name"> </td>
+                            </tr>
+                            <tr>
+                                <td style="backdrop-filter: blur(10px);color: white;"> Contact-No : </td>
+                                <td style="text-align: right;"><input required type="text" name="contact" class="inp" style="width: 100%;height: 40px;" placeholder="Contact No"></td>
+                            </tr>
+                            <tr>
+                                <td style="backdrop-filter: blur(10px);color: white;">Message Type : </td>
+                                <td style="text-align: right;">
+                                    <select type="text" name="massage-type" class="inp" style="width: 100%;height: 40px;">
+                                        <option>About a Course</option>
+                                        <option>Job Opportunities</option>
+                                        <option>Hire our Students</option>
+                                        <option>How can we partner</option>
+                                        <option>other </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="backdrop-filter: blur(10px);color: white;"> WhatsApp : </td>
+                                <td style="text-align: right;"> <input required name="whatsapp" type="text" class="inp" style="width: 100%;height: 40px;" placeholder="WhatsApp"></td>
+                            </tr>
+                            <tr>
+                                <td style="backdrop-filter: blur(10px);color: white;"> Email : </td>
+                                <td style="text-align: right;"> <input required name="email" type="email" class="inp" style="width: 100%;height: 40px;" placeholder="Email"></td>
+                                <input type="hidden" name="_autoresponse" value="Details recived">
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;backdrop-filter: blur(10px);color: white;"> Message : </td>
+                                <td style="text-align: right;"><textarea required name="massage" class="inp" style="width: 100%;height: 90px;">
+                                
+                                    </textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="padding: 10px;box-sizing: border-box;width: 100%;text-align: center;">
+                                    <button style="width: 80%;height: 40px;background-color:  rgb(68 168 207);color: white;border: white;cursor: pointer;">Submit</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </form>
+                </div>
+                <div class="contacts-div ccc" id="cont-2">
+                    <p>Talk to us and decide. Make the decision of a lifetime.</p>
+                    <div style="display: flex;justify-content: center;align-items: center;gap: 5px;">
+                        <div class="ico" style="    background-image: url('images/wa.png');"></div> 0742833337
+                    </div>
+                    <div style="display: flex;justify-content: center;align-items: center;gap: 5px;">
+                        <div class="ico" style="    background-image: url('images/gm.png');"></div> <a style="text-decoration: none;cursor: pointer;color: white;" href="mailto:info@plustechacademy.com">info@plustechacademy.com</a>
+                    </div>
+                    <button style="width: 80%;height: 40px;background-color:  rgb(68 168 207);color: white;border: white;margin: 10px;cursor: pointer;">Join a class</button>
+                    <h2>Frequently Asked Questions (FAQ)</h2>
+                    <div class="qanda">
+                        <div class="q">
+                            <div class="qq">Are you a degree awarding institute?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">We are NOT affiliated nor do we have ties with any conventional education institute, and we do not provide degrees. Instead, we look for skillsets and abilities more than for paper credentials. Many leading companies have started
+                                looking for real talent and experience than for certificates.</div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">Is your education process beginner friendly? </div>
+                        </div>
+                        <div class="a">
+                            <div class="aa"> Extremely Yes. We understand the minds of little children as well as experienced veterans. Our processes are tailor made to fit all sizes and needs.
+                            </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">How do I get my doubts resolved?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">We like to hear from you. Please do not hesitate to call us on 0742833337.
+                            </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">Are all of your courses free? </div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">No. But we have payment options to suit to your needs. Also we will not reject anyone due to financial constraints, we have educational scholarships for those who really cannot afford our fees.
+                            </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">How do I join in for trainings?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">Register via {link} Or call us 0742833337 - Our mentors will guide you for the best learning option suitable for your dreams.
+                            </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">Do you provide mentorship and guidance? </div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">Yes. Mentorship is at the heart of our education mission. </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">Do you help to find jobs?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">Our core principle is to spot talented students and lend them an opportunity so they can work wonders.
+                            </div>
+                        </div>
+
+                        <div class="q">
+                            <div class="qq">Do you help to build a business on my own?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">Yes. We guide you to build an entrepreneurial path if you do not wish to continue the employee path.</div>
+                        </div>
+                        <div class="q">
+                            <div class="qq">What are the benefits available for educators / instructors / lecturers?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">We serve our educators to help them build a Financially Rewarding Teaching Career in the ICT industry. You will create an opportunity to work at the comfort of your own schedule.</div>
+                        </div>
+                        <div class="q">
+                            <div class="qq">What are the benefits available for students?</div>
+                        </div>
+                        <div class="a">
+                            <div class="aa">Students will learn cutting edge skills to prepare for the most in demand jobs - no prior experience required. We offer highly affordable accelerated training, to be employable or find freelancing opportunities.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+        var LastScroll = 0;
+        var str1 = document.getElementById("st1");
+
+        var str1st1 = document.getElementById("str1");
+        var str1st2 = document.getElementById("str2");
+        var str1st3 = document.getElementById("str3");
+
+        var str2 = document.getElementById("st2");
+
+        var str2st1 = document.getElementById("str21");
+        var str2st2 = document.getElementById("str22");
+        var str2st3 = document.getElementById("str23");
+
+
+        var str3 = document.getElementById("st3");
+
+        var str3st1 = document.getElementById("str21");
+        var str3st2 = document.getElementById("str22");
+        var str3st3 = document.getElementById("str23");
+
+
+        var a = 2;
+        var b = 0;
+        var c = 1;
+
+        var ani1;
+        var ani2;
+        var ani3;
+        var ani4;
+        var ani5;
+        var ani6;
+        var ani7;
+        var ani8;
+
+
+
+
+
+        str2.scrollTo({
+            left: str2st2.getBoundingClientRect().width * 1,
+            behavior: "smooth",
+
+
+        });
+        str3.scrollTo({
+            left: str3st3.getBoundingClientRect().width * 2,
+            behavior: "smooth",
+
+
+        });
+        var scrolled;
+        window.addEventListener('scroll', function() {
+
+            var scroll = window.scrollY;
+
+            if (scrollY >= LastScroll) {
+                document.getElementById("header").style.top = "-50px";
+                LastScroll = scrollY
+                document.getElementById("ctrl").style.bottom = "-50px";
+
+                //  document.getElementById("ctrl").style.display = "none";
+            } else {
+                document.getElementById("header").style.top = "0";
+                //  document.getElementById("ctrl").style.display = "flex";
+                document.getElementById("ctrl").style.bottom = "+10px";
+
+
+                LastScroll = scrollY
+
+            }
+            var top = (document.getElementById("des").getBoundingClientRect()).top
+            document.getElementById("main-massage").style.marginBottom = scroll + "px";
+            document.getElementById("massage-2").style.marginBottom = scroll + "px";
+            document.getElementById("massage-3").style.marginBottom = scroll + "px";
+            document.getElementById("massage-4").style.marginBottom = scroll + "px";
+
+
+
+            if (window.scrollY >= top) {
+
+                document.getElementById("title").innerHTML = "+Tech | About Us";
+                ani1 = window.requestAnimationFrame(function() {
+                    scrollSlider();
+                    window.cancelAnimationFrame(ani1);
+                });
+                scrolled = true;
+            } else {
+                document.getElementById("title").innerHTML = "+Tech | Home";
+
+            }
+            if (window.scrollY >= ((document.getElementById("ben").offsetTop) - (document.getElementById("ben").offsetHeight) / 2)) {
+
+
+
+
+                ani2 = window.requestAnimationFrame(function() {
+                    document.getElementById("b1").style.transform = "scale(1)";
+                    document.getElementById("b2").style.transform = "scale(1)";
+                    window.cancelAnimationFrame(ani2);
+
+                });
+
+
+
+
+                document.getElementById("title").innerHTML = "+Tech | Benifits";
+
+            }
+            if (window.scrollY >= ((document.getElementById("car").offsetTop) - (document.getElementById("car").offsetHeight) / 2)) {
+
+
+
+
+                ani8 = window.requestAnimationFrame(function() {
+                    document.getElementById("ca-1").style.transform = "scale(1)";
+                    document.getElementById("ca-2").style.transform = "scale(1)";
+
+
+                    document.getElementById("title").innerHTML = "+Tech | Careers";
+                    window.cancelAnimationFrame(ani8);
+
+                });
+
+
+
+
+            }
+
+
+            if (window.scrollY >= ((document.getElementById("coop").offsetTop) - (document.getElementById("coop").offsetHeight) / 2)) {
+
+                ani3 = window.requestAnimationFrame(function() {
+                    document.getElementById("coop").style.transform = "scale(1)";
+                    window.cancelAnimationFrame(ani3);
+
+                });
+
+
+
+
+
+
+
+                document.getElementById("title").innerHTML = "+Tech | Corporates";
+
+            }
+            if (window.scrollY >= ((document.getElementById("fb").offsetTop) - (document.getElementById("fb").offsetHeight) / 2)) {
+                ani4 = window.requestAnimationFrame(function() {
+                    document.getElementById("tab").style.opacity = "1";
+                    window.cancelAnimationFrame(ani4);
+
+                });
+
+
+
+
+
+
+
+
+
+
+            }
+            if (window.scrollY >= ((document.getElementById("cont").offsetTop) - (document.getElementById("cont").offsetHeight) / 2)) {
+                ani7 = window.requestAnimationFrame(function() {
+                    document.getElementById("form").style.opacity = "1";
+                    window.cancelAnimationFrame(ani7);
+
+                });
+
+
+
+
+
+
+
+
+
+
+            }
+            if (window.scrollY >= ((document.getElementById("cont-2").offsetTop) - (document.getElementById("cont-2").offsetHeight) / 2)) {
+                ani8 = window.requestAnimationFrame(function() {
+                    document.getElementById("cont-form").style.opacity = "1";
+                    window.cancelAnimationFrame(ani8);
+
+                });
+
+
+
+
+
+
+
+
+
+
+            }
+            if (window.scrollY >= ((document.getElementById("we-do-div").offsetTop) - (document.getElementById("we-do-div").offsetHeight) / 2)) {
+                ani5 = window.requestAnimationFrame(function() {
+                    document.getElementById("cir2").style.marginLeft = 0;
+                    document.getElementById("cir3").style.marginLeft = 0;
+                    document.getElementById("cir4").style.marginLeft = 0;
+                    window.cancelAnimationFrame(ani5);
+
+                });
+            }
+            if (window.scrollY >= ((document.getElementById("traning").offsetTop) - (document.getElementById("traning").offsetHeight) / 2)) {
+                ani6 = window.requestAnimationFrame(function() {
+
+                    document.getElementById("tra").style.opacity = "1";
+                    window.cancelAnimationFrame(ani6);
+
+                });
+                document.getElementById("title").innerHTML = "+Tech | Training";
+
+            }
+            if (window.scrollY >= ((document.getElementById("cont").offsetTop) - (document.getElementById("cont").offsetHeight) / 2)) {
+
+                document.getElementById("title").innerHTML = "+Tech | Contact Us";
+
+            }
+
+
+        })
+
+        function scrollSlider() {
+            str1.scrollTo({
+                left: str1st1.getBoundingClientRect().width * a,
+                behavior: "smooth",
+
+
+            });
+            str2.scrollTo({
+                left: str2st2.getBoundingClientRect().width * b,
+                behavior: "smooth",
+
+
+            });
+            str3.scrollTo({
+                left: str3st3.getBoundingClientRect().width * c,
+                behavior: "smooth",
+
+
+            });
+        }
+        setInterval(() => {
+
+            window.requestAnimationFrame(function() {
+                if (scrolled) {
+                    a++;
+                    b++;
+                    c++;
+                    if (a > 2) {
+                        a = 0;
+                    }
+                    if (b > 2) {
+                        b = 0;
+                    }
+                    if (c > 2) {
+                        c = 0;
+                    }
+
+
+                    scrollSlider();
+                }
+            });
+        }, 20000);
+    </script>
+</body>
+
+</html>
