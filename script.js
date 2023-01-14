@@ -3,7 +3,7 @@ var time = 10000;
 im.src = "images/intro.gif";
 im.onload = function() {
 
-    document.getElementById("banner").style.backgroundImage = "url('" + im.src + "')";
+    // document.getElementById("banner").style.backgroundImage = "url('" + im.src + "')";
 
 }
 
@@ -34,7 +34,7 @@ function slider() {
         x.style.display = "none";
     });
 
-    massages[massage].style.display = "grid";
+    massages[massage].style.display = "block";
 
 
 }
